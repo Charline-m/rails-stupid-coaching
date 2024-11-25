@@ -1,0 +1,11 @@
+
+<h1 class="p-3">Stupid Coaching</h1>
+
+<p class="mb-1 p-3">Ask your coach anything</p>
+
+<form action="/answer" data-turbo="false" method="get">
+  <div class="input-group mb-3 px-3" style= "max-width: 400px">
+    <input type="text" class="form-control" name="question" value="<%= params[:question]%>" aria-describedby="button-addon2">
+    <input class="btn btn-primary" type="submit" value="ask!">
+  </div>
+</form>

@@ -1,4 +1,50 @@
-/*
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Fond gris clair */
+  color: #333; /* Couleur du texte */
+  text-align: center; /* Centrer le texte */
+  padding: 20px; /* Padding autour du contenu */
+}
+
+h1 {
+  font-size: 2.5em; /* Taille du titre */
+  color: #4CAF50; /* Couleur verte */
+  margin-bottom: 20px; /* Marge en bas */
+}
+
+h2 {
+  font-size: 2em; /* Taille de la sous-titre */
+  color: #555; /* Couleur du sous-titre */
+  margin-bottom: 10px; /* Marge en bas */
+}
+
+.question {
+  background-color: white; /* Fond blanc */
+  border-radius: 8px; /* Coins arrondis */
+  padding: 20px; /* Padding intérieur */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  margin: 20px 0; /* Marge en haut et en bas */
+}
+
+.response {
+  font-size: 1.2em; /* Taille de la réponse */
+  color: #555; /* Couleur de la réponse */
+  margin-top: 10px; /* Marge en haut */
+}
+
+button {
+  background-color: #4CAF50; /* Bouton vert */
+  color: white; /* Texte blanc */
+  border: none; /* Pas de bordure */
+  padding: 10px 20px; /* Padding intérieur */
+  border-radius: 5px; /* Coins arrondis */
+  cursor: pointer; /* Curseur pointeur */
+  font-size: 1em; /* Taille du texte du bouton */
+}
+
+button:hover {
+  background-color: #45a049; /* Couleur au survol */
+}/*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
